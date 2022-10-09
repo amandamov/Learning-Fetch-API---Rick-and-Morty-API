@@ -39,19 +39,10 @@ body {
 }
 
 .main-cointainer {
-    /* display: flex;
-    flex-direction: column; */
     background-color: rgb(113, 150, 122);
     width: 90%;
     text-align: center;
 }
-
-/* .episode-div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-} */
 
 .div-all-characters{
     display: flex;
@@ -61,8 +52,6 @@ body {
 
 .containerCharacter {
     text-align: center;
-    /* padding: 20%;
-    margin: 20%; */
     width: 100%;
 }
 

@@ -35,9 +35,7 @@ function sidebar(){
             json => {
                 console.log(json.results);
                 json.results.forEach(episode => {
-                    // const aTag = document.createElement('a');
                     const episodesTitle = document.createElement('p');
-                    // aTag.appendChild(episodesTitle);
                     episodesTitle.innerText = `Episode ${episode.id}`;
                     sidebarDiv.appendChild(episodesTitle);
                     episodesTitle.addEventListener("click", event => {
@@ -54,7 +52,6 @@ function sidebar(){
         )
 }
 sidebar();
-
 
 //MAIN CONTAINER
 const mainContainer = document.createElement("div");
